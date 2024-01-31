@@ -2,7 +2,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
-    <artifactId>Skr_Sonarqube</artifactId>
+    <artifactId>SKR</artifactId>
     <version>2.0.6</version>
     <!--<version>9.10.3-SNAPSHOT</version>-->
     <packaging>war</packaging>
@@ -121,7 +121,7 @@
                     <version>3.2.2</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>Skr_Sonar</warName>
+                        <warName>SKR</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
@@ -144,6 +144,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>Skr_Sonar</finalName>
+        <finalName>SKR</finalName>
     </build>
 </project>
