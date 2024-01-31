@@ -4,7 +4,10 @@ node {
       git url: 'https://github.com/SubhashreddyK/CI-CD.git', branch: 'main'
       mvnHome = tool 'maven'
    }
-  
+    stage ('Code Scanning') {
+      sh "'${mvnHome}/bin/mvn' sonar:sonar"
+  }
+
   stage ('Clean') {
       sh "'${mvnHome}/bin/mvn' clean"
   }
