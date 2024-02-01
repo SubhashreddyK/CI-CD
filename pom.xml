@@ -42,13 +42,13 @@
     <repository>
         <id>release</id>
         <name>jfrog.skr.io-releases</name>
-        <url>http://3.236.50.51:8082/artifactory/libs-release-local</url>
+        <url>http://3.236.50.51:8081/artifactory/libs-release-local</url>
     </repository>
 
     <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog.skr.io-snapshots</name>
-        <url>http://3.236.50.51:8082/artifactory/libs-snapshot-local</url>
+        <url>http://3.236.50.51:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 
 </distributionManagement>
