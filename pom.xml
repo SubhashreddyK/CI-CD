@@ -14,7 +14,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
-        <sonar.host.url>http://3.80.162.67:9000</sonar.host.url>
+        <sonar.host.url>http://34.231.255.195:9000</sonar.host.url>
         <sonar.organization>Skr_Sonarqube</sonar.organization>
         <sonar.projectKey>Skr_Sonarqube</sonar.projectKey>
         <sonar.login>sqp_aa2c4df4f42d68e6783283e3053624ebda5e9045</sonar.login>
@@ -36,24 +36,24 @@
 </distributionManagement>
     -->
 
-    <!--     
+      
 <distributionManagement>
 
     <repository>
         <id>release</id>
-        <name>jfrog.cloudbinary.io-releases</name>
-        <url>http://54.90.15.148:8081/artifactory/libs-release-local</url>
+        <name>jfrog.skr.io-releases</name>
+        <url>http://3.236.50.51:8081/artifactory/libs-release-local</url>
     </repository>
 
     <snapshotRepository>
         <id>snapshots</id>
-        <name>jfrog.cloudbinary.io-snapshots</name>
-        <url>http://54.90.15.148:8081/artifactory/libs-snapshot-local</url>
+        <name>jfrog.skr.io-snapshots</name>
+        <url>http://3.236.50.51:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 
 </distributionManagement>
 
-    -->
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
