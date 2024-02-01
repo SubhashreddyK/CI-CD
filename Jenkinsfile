@@ -23,5 +23,13 @@ node {
   stage ('Install') {
       sh "'${mvnHome}/bin/mvn' install"
   }
-
+stage ('Verify') {
+      sh "'${mvnHome}/bin/mvn' verify"
+  }
+  stage ('Package') {
+      sh "'${mvnHome}/bin/mvn' package"
+  }
+stage ('Deploy') {
+      sh "'${mvnHome}/bin/mvn' deploy"
+  }
 }
