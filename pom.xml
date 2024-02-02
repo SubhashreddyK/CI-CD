@@ -2,7 +2,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
-    <artifactId>SKR</artifactId>
+    <artifactId>devops</artifactId>
     <version>9.10.9-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Skr - Sample Spring MVC Application</name>
