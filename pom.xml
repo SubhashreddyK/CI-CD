@@ -13,10 +13,10 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
-        <sonar.host.url>http://3.215.185.18:9000//</sonar.host.url>
-        <sonar.organization>Skr_Sonarqube</sonar.organization>
-        <sonar.projectKey>Skr_Sonarqube</sonar.projectKey>
-        <sonar.login>sqp_cfe18a76315c261177690eee68a6a8b5e11290d6</sonar.login>
+        <sonar.host.url>http://3.215.185.18:9000</sonar.host.url>
+        <sonar.organization>Skr_sonarqube1</sonar.organization>
+        <sonar.projectKey>Skr_sonarqube1</sonar.projectKey>
+        <sonar.login>sqp_339d7ce5e7950e22e7f069f583ee2273a2520e3f</sonar.login>
 
     </properties>
 
