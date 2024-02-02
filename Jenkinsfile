@@ -33,9 +33,9 @@ stage ('Deploy') {
       sh "'${mvnHome}/bin/mvn' deploy"
   }
 stage ('Deliver & Deployment') {
-      sh 'curl -u admin:redhat@123 -T target/**.war "http://34.204.206.116:8080/manager/text/deploy?path=/devops&update=true"'
+      sh 'curl -u admin:redhat@123 -T target/**.war "http://44.223.36.140:8080//manager/text/deploy?path=/devops&update=true"'
   }
 stage ('SmokeTest') {
-      sh 'curl --retry-delay 10 --retry 5 "http://34.204.206.116:8080/devops"'  
+      sh 'curl --retry-delay 10 --retry 5 "http://44.223.36.140:8080//devops"'  
  }
 }
