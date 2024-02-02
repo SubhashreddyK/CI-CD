@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
     <artifactId>devops</artifactId>
-    <version>9.10.9-SNAPSHOT</version>
+    <version>9.10.9</version>
     <packaging>war</packaging>
     <name>Skr - Sample Spring MVC Application</name>
 
