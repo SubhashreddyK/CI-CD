@@ -37,4 +37,5 @@ stage ('Deliver & Deployment') {
   }
 stage ('SmokeTest') {
       sh 'curl --retry-delay 10 --retry 5 "http://34.204.206.116:8080/devops"'  
+ }
 }
