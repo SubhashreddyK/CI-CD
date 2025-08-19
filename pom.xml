@@ -49,11 +49,9 @@
         <name>jfrog.skr.io-snapshots</name>
         <url>http://44.197.235.246:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-    -->
-
+    
 </distributionManagement>
-
-
+    -->
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
