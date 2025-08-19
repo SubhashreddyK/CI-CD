@@ -5,7 +5,7 @@
     <artifactId>devops</artifactId>
     <version>10.01.00</version>
     <packaging>war</packaging>
-    <name>Skr - Sample Spring MVC Application</name>
+    <name>Ashvika</name>
 
     <properties>
         <junit.platform.version>1.2.0</junit.platform.version>
@@ -35,7 +35,7 @@
 </distributionManagement>
     -->
 
-      
+<!--      
 <distributionManagement>
 
     <repository>
@@ -49,7 +49,7 @@
         <name>jfrog.skr.io-snapshots</name>
         <url>http://44.197.235.246:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-
+    -->
 
 </distributionManagement>
 
@@ -121,7 +121,7 @@
                     <version>3.2.2</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>devops</warName>
+                        <warName>Ashvika</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
@@ -144,6 +144,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>devops</finalName>
+        <finalName>Ashvika</finalName>
     </build>
 </project>
